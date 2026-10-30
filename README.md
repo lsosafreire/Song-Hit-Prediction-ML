@@ -1,6 +1,6 @@
 Predicting Hit Songs & Virality Using Audio Feature Engineering
 
-Predicting hit songs using Spotify audio features, Billboard data, lyrics, Random Forest and XGBoost.
+Predicting hit songs using Spotify audio features, Billboard data, lyrics, Random Forest, Naive Bayes, XG Boost and Logistic Regression.
 
 Project Overview - This project uses Machine Learning to establish if a song can be predicted as a hit based on its audio characteristics. 
 
