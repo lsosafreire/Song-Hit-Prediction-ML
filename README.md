@@ -6,6 +6,6 @@ Project Overview - This project uses Machine Learning to establish if a song can
 
 Datasets - Four Kaggle datasets were used: Spotify Tracks Dataset, Billboard Hot 100 & More, Spotify Audio Features Dataset, and Spotify Million Song Lyrics Dataset.
 
-Machine Learning Model: We use Random Forest, XG Boost, Linear Regression and ____.
+Machine Learning Model: We use Random Forest, XG Boost, Linear Regression and Naive Bayes.
 
 Our dataset contains 71 columns, 
