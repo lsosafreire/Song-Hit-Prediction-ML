@@ -91,18 +91,13 @@ print("\n--- COMPLETE LIST OF GENERATED FEATURES ---")
 for i, col in enumerate(df_expanded.columns, 1):
   print(f"{i}. {col}")
 
-# Optional: Save the master dataset for your ML training pipeline
-# df_expanded.to_csv("Master_Spotify_Hit_Prediction_Dataset.csv", index=False)
 
-
-# Assuming your expanded dataframe is named df_expanded
-# index=False ensures pandas doesn't save an extra column of row numbers (0, 1, 2...)
 df_expanded.to_csv("Master_Spotify_Hit_Prediction_Dataset.csv", index=False)
 
 print("Dataset successfully exported to Master_Spotify_Hit_Prediction_Dataset.csv!")
 
 
-# Save a sample of your engineered dataset to Excel for reporting/presentations
+# Save a sample of engineered dataset to Excel for reporting/presentations
 df_expanded.head(1000000).to_excel(
     "Master_Spotify_Hit_Prediction_Excel.xlsx", index=False, sheet_name="Engineered Features"
 )
