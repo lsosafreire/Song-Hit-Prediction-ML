@@ -18,7 +18,7 @@ from sklearn.metrics import (
 # 1. Load the dataset
 # ======================================
 
-df = pd.read_csv("Master_Spotify_Hit_Prediction_Dataset-2.csv")
+df = pd.read_csv("Master_Spotify_Hit_Prediction_Dataset.csv")
 
 print("Dataset loaded!")
 print("Total songs:", len(df))
